@@ -65,8 +65,7 @@ void Server::stop()
             boost::system::error_code ec;
             socket->close(ec);
         }
-    }
-    clients_.clear();
+    }fdsfdsa
 
     // 3. io_context 중지 (진행 중인 모든 비동기 작업 취소)
     io_context.stop();
